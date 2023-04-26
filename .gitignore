@@ -36,8 +36,11 @@ yarn-error.log
 /libpeerconnection.log
 testem.log
 /typings
-ToDo.txt
 
 # System files
 .DS_Store
 Thumbs.db
+
+#MyFiles
+ToDo.txt
+models.ts

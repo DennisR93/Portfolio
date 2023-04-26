@@ -1,6 +1,6 @@
 div {
     height: 100%;
-    float: right;
+    float: left;
     margin-right: 5px;
     display: flex;
 }

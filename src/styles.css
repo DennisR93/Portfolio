@@ -4,10 +4,20 @@ body {
     margin: 0;
     padding: 0;
     color: white;
+    overflow: hidden;
 }
 
 .container {
     margin: 0 auto;
     max-width: 1500px;
     outline: 0px solid white;
+}
+
+h1 {
+    padding: 1rem 0;
+    text-align: center;
+    letter-spacing: 1px;
+    color: greenyellow;
+    outline: 1px solid white;
+    /* font-family: ; */
 }

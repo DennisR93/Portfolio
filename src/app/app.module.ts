@@ -4,11 +4,12 @@ import { NgModule } from '@angular/core';
 import { FormsModule } from '@angular/forms';
 import { BrowserModule } from '@angular/platform-browser';
 import { AppRoutingModule } from './app-routing.module';
+import { HomeComponent } from './components/home-area/home/home.component';
+import { PersonalInfoComponent } from './components/home-area/personal-info/personal-info.component';
 import { FooterComponent } from './components/layout-area/footer/footer.component';
+import { HeaderComponent } from './components/layout-area/header/header.component';
 import { LayoutComponent } from './components/layout-area/layout/layout.component';
 import { ResponsiveDirective } from './services/responsive.directive';
-import { HeaderComponent } from './components/layout-area/header/header.component';
-import { HomeComponent } from './components/home-area/home/home.component';
 
 @NgModule({
   declarations: [
@@ -16,7 +17,8 @@ import { HomeComponent } from './components/home-area/home/home.component';
     FooterComponent,
     ResponsiveDirective,
     HeaderComponent,
-    HomeComponent
+    HomeComponent,
+    PersonalInfoComponent
   ],
   imports: [
     BrowserModule,
