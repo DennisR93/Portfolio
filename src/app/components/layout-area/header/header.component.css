@@ -1,0 +1,13 @@
+div {
+    height: 100%;
+    float: right;
+    margin-right: 5px;
+    display: flex;
+}
+
+ul {
+    display: flex;
+    list-style: none;
+    gap: 7px;
+    margin: auto;
+}

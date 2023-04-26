@@ -7,12 +7,16 @@ import { AppRoutingModule } from './app-routing.module';
 import { FooterComponent } from './components/layout-area/footer/footer.component';
 import { LayoutComponent } from './components/layout-area/layout/layout.component';
 import { ResponsiveDirective } from './services/responsive.directive';
+import { HeaderComponent } from './components/layout-area/header/header.component';
+import { HomeComponent } from './components/home-area/home/home.component';
 
 @NgModule({
   declarations: [
     LayoutComponent,
     FooterComponent,
-    ResponsiveDirective
+    ResponsiveDirective,
+    HeaderComponent,
+    HomeComponent
   ],
   imports: [
     BrowserModule,

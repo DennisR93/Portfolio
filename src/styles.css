@@ -1,7 +1,13 @@
 html,
 body {
     height: 100%;
-    text-align: center;
     margin: 0;
     padding: 0;
+    color: white;
+}
+
+.container {
+    margin: 0 auto;
+    max-width: 1500px;
+    outline: 0px solid white;
 }

@@ -18,7 +18,8 @@ footer {
     grid-column: span 6;
 }
 
-div,
-div>* {
-    border: 1px solid black;
+:host {
+    /* height: 100%; */
+    display: block;
+    background-color: black;
 }

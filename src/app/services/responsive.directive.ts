@@ -24,3 +24,5 @@ export class ResponsiveDirective {
             });
     }
 }
+
+// Can be added parentElement before classList
