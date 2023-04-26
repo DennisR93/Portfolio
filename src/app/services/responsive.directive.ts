@@ -17,7 +17,7 @@ export class ResponsiveDirective {
                             if (breakpoint === Breakpoints.HandsetPortrait) {
                                 this.elementRef.nativeElement.classList.remove("desktop");
                             }
-                            if (breakpoint === Breakpoints.WebLandscape) { this.elementRef.nativeElement.lastChild.classList.add("desktop"); }
+                            if (breakpoint === Breakpoints.WebLandscape) { this.elementRef.nativeElement.classList.add("desktop"); }
                         }
                     }
                 },
