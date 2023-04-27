@@ -2,15 +2,11 @@ div {
     height: 100%;
     box-sizing: border-box;
     display: grid;
-    grid-template-rows: 5% 90% 5%;
+    grid-template-rows: 2% 96% 2%;
     grid-template-columns: repeat(6, 1fr);
 }
 
-main {
-    grid-column: span 6;
-    overflow: auto;
-}
-
+main,
 header,
 footer {
     grid-column: span 6;
@@ -21,3 +17,10 @@ footer {
     display: block;
     background-color: black;
 }
+
+
+/* Not working Element */
+/* header {
+    position: sticky;
+    top: 0;
+} */

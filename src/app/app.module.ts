@@ -10,6 +10,8 @@ import { FooterComponent } from './components/layout-area/footer/footer.componen
 import { HeaderComponent } from './components/layout-area/header/header.component';
 import { LayoutComponent } from './components/layout-area/layout/layout.component';
 import { ResponsiveDirective } from './services/responsive.directive';
+import { EducationComponent } from './components/home-area/education/education.component';
+import { ExperienceComponent } from './components/home-area/experience/experience.component';
 
 @NgModule({
   declarations: [
@@ -18,7 +20,9 @@ import { ResponsiveDirective } from './services/responsive.directive';
     ResponsiveDirective,
     HeaderComponent,
     HomeComponent,
-    PersonalInfoComponent
+    PersonalInfoComponent,
+    EducationComponent,
+    ExperienceComponent
   ],
   imports: [
     BrowserModule,

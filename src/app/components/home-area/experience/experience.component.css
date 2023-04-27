@@ -1,0 +1,58 @@
+:host {
+    display: block;
+    color: white;
+    padding: 3rem 2rem;
+}
+
+ul:has(ul) {
+    padding: 0;
+    list-style: none;
+}
+
+ul li:has(ul) {
+    margin-top: 2rem;
+}
+
+ul li h2 {
+    color: greenyellow;
+}
+
+ul li h4 {
+    color: lightgray;
+}
+
+
+/* Desktop */
+
+:host.desktop ul li:has(ul) {
+    width: max-content;
+    position: relative;
+    margin-left: 5rem;
+}
+
+:host.desktop ul li:has(ul)::before {
+    content: "";
+    position: absolute;
+    width: 20px;
+    height: 20px;
+    left: -60px;
+    top: 5px;
+    border-radius: 50%;
+    z-index: 2;
+    background-color: greenyellow;
+}
+
+:host.desktop ul li:has(ul)::after {
+    content: "";
+    position: absolute;
+    width: 1px;
+    height: 130%;
+    left: -50px;
+    top: 5%;
+    z-index: 1;
+    background-color: lightgray;
+}
+
+:host.desktop ul li:has(ul):last-child::after {
+    height: 100%;
+}
