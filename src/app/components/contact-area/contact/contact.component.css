@@ -1,0 +1,58 @@
+:host {
+    display: block;
+    color: white;
+    padding: 2rem 3rem;
+}
+
+ul{
+    margin-top: 2rem;
+    list-style: none;
+    padding: 0;
+}
+
+.social-media {
+    font-size: 2rem;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.social-media li {
+    height: 60px;
+    width: 60px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 50%;
+    color: greenyellow;
+    background-color: rgba(255, 255, 25, 0.2);
+}
+
+.contact-info li {
+    height: 30px;
+    font-size: 1.2rem;
+}
+
+/* Desktop */
+:host.desktop .container{
+    display: grid;
+    gap: 2rem;
+    grid-template-columns: 1fr 1fr;
+}
+
+:host.desktop h1{
+    grid-column: 1/3;
+}
+
+:host.desktop .social-media, :host.desktop .contact-info{
+    width: 400px;
+    margin: 0 auto;
+}
+
+:host.desktop .social-media{
+    cursor: pointer;
+}
+
+:host.desktop .social-media li:hover {
+    background-color: rgba(255, 255, 25, 0.3);
+}

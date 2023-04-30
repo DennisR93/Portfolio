@@ -12,6 +12,8 @@ import { LayoutComponent } from './components/layout-area/layout/layout.componen
 import { ResponsiveDirective } from './services/responsive.directive';
 import { EducationComponent } from './components/home-area/education/education.component';
 import { ExperienceComponent } from './components/home-area/experience/experience.component';
+import { SkillsComponent } from './components/home-area/skills/skills.component';
+import { ContactComponent } from './components/contact-area/contact/contact.component';
 
 @NgModule({
   declarations: [
@@ -22,7 +24,9 @@ import { ExperienceComponent } from './components/home-area/experience/experienc
     HomeComponent,
     PersonalInfoComponent,
     EducationComponent,
-    ExperienceComponent
+    ExperienceComponent,
+    SkillsComponent,
+    ContactComponent
   ],
   imports: [
     BrowserModule,
