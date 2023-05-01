@@ -10,6 +10,10 @@ ul{
     padding: 0;
 }
 
+a{
+    color: greenyellow;
+}
+
 .social-media {
     font-size: 2rem;
     display: flex;
@@ -28,17 +32,16 @@ ul{
     background-color: rgba(255, 255, 25, 0.2);
 }
 
+i {
+    margin-top: 3px;
+}
+
 .contact-info li {
     height: 30px;
     font-size: 1.2rem;
 }
 
 /* Desktop */
-:host.desktop .container{
-    display: grid;
-    gap: 2rem;
-    grid-template-columns: 1fr 1fr;
-}
 
 :host.desktop h1{
     grid-column: 1/3;
@@ -46,7 +49,7 @@ ul{
 
 :host.desktop .social-media, :host.desktop .contact-info{
     width: 400px;
-    margin: 0 auto;
+    margin: 3rem auto 0;
 }
 
 :host.desktop .social-media{
