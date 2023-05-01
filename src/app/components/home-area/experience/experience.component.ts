@@ -13,7 +13,7 @@ export class ExperienceComponent {
     {
       name: "To-Do List",
       technologies: "HTML, CSS, JavaScript",
-      type: "FrontEnd",
+      type: "Frontend",
       description: [
         "Simple To-Do list project made with HTML, CSS, JavaScript"
       ]
@@ -21,7 +21,7 @@ export class ExperienceComponent {
     {
       name: "Crypto Coins API",
       technologies: "HTML, CSS, jQuery",
-      type: "FrontEnd",
+      type: "Frontend",
       description: [
         "jQuery project using HTML, CSS, JavaScript and Rest API"
       ]
@@ -32,6 +32,14 @@ export class ExperienceComponent {
       type: "MERN Stack",
       description: [
         "React, TypeScript, Redux project using MySQL and NodeJS", "Rest API built with TypeScript and NodeJS using express"
+      ]
+    },
+    {
+      name: "Portfolio",
+      technologies: "Angular, TypeScript, CSS",
+      type: "Frontend",
+      description: [
+        "Angular, TypeScript, fully responsive portfolio web site for mobile and desktop"
       ]
     },
 
