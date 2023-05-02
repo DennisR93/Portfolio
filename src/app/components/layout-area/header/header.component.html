@@ -1,4 +1,21 @@
-<div>
+<div class="hamburger-nav">
+    <div class="hamburger-nav-toggle">
+        <button (click)="onToggle()" class="hamburger-nav-button">
+            <i class='bx bx-grid-small'></i>
+        </button>
+    </div>
+
+    <ul class="hamburger-navbar" *ngIf="showToggle">
+        <li><a href="#home">Home</a></li>
+        <li><a href="#about">About</a></li>
+        <li><a href="#projects">Projects</a></li>
+        <li><a href="#skills">Skills</a></li>
+        <li><a href="#contact">Contact Me</a></li>
+    </ul>
+</div>
+
+    <!-- Desktop Nav -->
+<div class="desktop-navbar">
     <ul>
         <li><a href="#home">Home</a></li>
         <li><a href="#about">About</a></li>

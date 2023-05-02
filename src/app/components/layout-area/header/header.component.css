@@ -1,3 +1,7 @@
+:host .desktop-navbar {
+display: none;
+}
+
 div {
     height: 100%;
     float: left;
@@ -15,4 +19,31 @@ ul {
 a{
     text-decoration: none;
     color: greenyellow;
+}
+
+.hamburger-nav-button{
+    background: none;
+    border: none;
+    font-size: x-large;
+}
+
+.bx{
+    color: white;
+}
+
+.hamburger-navbar ul li a {
+    color: white;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size: 17px;
+    display: block;
+}
+
+/* Desktop */
+:host.desktop .hamburger-nav{
+    display: none;
+}
+
+:host.desktop .desktop-navbar{
+    display: flex;
 }
