@@ -1,5 +1,6 @@
 div {
     height: 100%;
+    width: 100%;
     box-sizing: border-box;
     display: grid;
     grid-template-rows: 2% 96% 2%;
