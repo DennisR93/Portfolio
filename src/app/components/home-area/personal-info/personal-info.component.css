@@ -1,6 +1,6 @@
 :host {
     display: block;
-    color: white;
+    color: var(--cadet-gray);
     margin: 3rem 2rem;
 }
 
@@ -11,7 +11,7 @@
 
 table {
     font-size: 1.3rem;
-    outline: 1px solid white;
+    outline: 1px solid var(--ash-gray);
 }
 
 table tr {
@@ -23,7 +23,7 @@ table tr td {
 }
 
 table tr td:nth-child(even) {
-    color: greenyellow;
+    color: var(--cadet-gray);
 }
 
 section p {

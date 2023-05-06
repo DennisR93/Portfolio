@@ -1,7 +1,7 @@
 :host {
     display: block;
     padding: 4rem 2rem 6rem;
-    background-color: darkgrey;
+    background-color: var(--timberwolf);
     clip-path: polygon(0% 0%, 100% 0%, 100% 95%, 50% 100%, 0% 95%);
 }
 
@@ -16,7 +16,7 @@
     padding: 0 0 2rem;
     text-align: center;
     font-style: italic;
-    color: greenyellow;
+    color: var(--hooker-green);
     text-decoration: underline;
     font-family: 'Bebas Neue', cursive;
 }
@@ -24,26 +24,26 @@
 .name {
     grid-row: 3/4;
     padding: 1rem;
-    color: white;
+    color: var(--cadet-gray);
     font-size: 1.8rem;
     margin-top: 3rem;
-    outline: 1px solid white;
+    outline: 1px solid var(--ash-gray);
     font-family: 'Konkhmer Sleokchher', cursive;
 }
 
 .name span:nth-of-type(1) span {
     font-size: 2.5rem;
-    color: greenyellow;
+    color: var(--hooker-green);
 }
 
 .name span:nth-of-type(2) {
     display: inline-block;
-    color: greenyellow;
+    color: var(--hooker-green);
     font-size: 2.5rem;
     font-weight: bold;
     padding: 10px 0;
     letter-spacing: 8px;
-    text-shadow: 10px 8px 10px rgba(0, 0, 0, 0.4);
+    text-shadow: 8px 5px 8px rgba(0, 0, 0, 0.2);
 }
 
 .profile {
@@ -60,7 +60,7 @@
     width: 100%;
     bottom: 0%;
     position: absolute;
-    background-color: aquamarine;
+    background-color: var(--hooker-green);
     clip-path: inset(0 round 50% 0 0);
 }
 

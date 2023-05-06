@@ -1,6 +1,6 @@
 :host {
     display: block;
-    color: white;
+    color: var(--cadet-gray);
     padding: 3rem 2rem;
 }
 
@@ -14,11 +14,11 @@ ul li:has(ul) {
 }
 
 ul li h2 {
-    color: greenyellow;
+    color: var(--hooker-green);
 }
 
 ul li h4 {
-    color: lightgray;
+    color: var(--ash-gray);
 }
 
 
@@ -39,7 +39,7 @@ ul li h4 {
     top: 5px;
     border-radius: 50%;
     z-index: 2;
-    background-color: greenyellow;
+    background-color: var(--hooker-green);
 }
 
 :host.desktop ul li:has(ul)::after {
@@ -50,7 +50,7 @@ ul li h4 {
     left: -50px;
     top: 5%;
     z-index: 1;
-    background-color: lightgray;
+    background-color: var(--ash-gray);
 }
 
 :host.desktop ul li:has(ul):last-child::after {

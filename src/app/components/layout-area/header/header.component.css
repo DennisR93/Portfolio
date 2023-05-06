@@ -17,8 +17,9 @@ ul {
 }
 
 a{
+    font-size: 1.2rem;
     text-decoration: none;
-    color: greenyellow;
+    color: var(--hooker-green);
 }
 
 .hamburger-nav-button{
@@ -28,11 +29,11 @@ a{
 }
 
 .bx{
-    color: white;
+    color: var(--cadet-gray);
 }
 
 .hamburger-navbar ul li a {
-    color: white;
+    color: var(--hooker-green);
     padding: 14px 16px;
     text-decoration: none;
     font-size: 17px;
