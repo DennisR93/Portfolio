@@ -17,7 +17,7 @@ ul {
 }
 
 a{
-    font-size: 1.2rem;
+    font-size: 1rem;
     text-decoration: none;
     color: var(--hooker-green);
 }
@@ -47,4 +47,8 @@ a{
 
 :host.desktop .desktop-navbar{
     display: flex;
+}
+
+:host.desktop a{
+    font-size: 1.2rem;
 }

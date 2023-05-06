@@ -1,7 +1,7 @@
 :host {
     display: block;
     color: var(--cadet-gray);
-    margin: 3rem 2rem;
+    margin: 2rem 2rem;
 }
 
 .container {
@@ -10,7 +10,7 @@
 }
 
 table {
-    font-size: 1.3rem;
+    font-size: 1rem;
     outline: 1px solid var(--ash-gray);
 }
 
@@ -27,7 +27,7 @@ table tr td:nth-child(even) {
 }
 
 section p {
-    font-size: 1.2rem;
+    font-size: 1rem;
     text-align: justify;
 }
 

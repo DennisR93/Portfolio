@@ -1,7 +1,7 @@
 :host {
     display: block;
     color: var(--cadet-gray);
-    padding: 3rem 2rem;
+    padding: 2rem 2rem;
 }
 
 ul:has(ul) {

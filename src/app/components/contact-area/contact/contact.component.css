@@ -1,7 +1,7 @@
 :host {
     display: block;
     color: var(--cadet-gray);
-    padding: 2rem 3rem;
+    padding: 2rem 2rem;
 }
 
 ul{
@@ -37,7 +37,7 @@ i {
 
 .contact-info li {
     height: 30px;
-    font-size: 1.2rem;
+    font-size: 1rem;
 }
 
 /* Desktop */
