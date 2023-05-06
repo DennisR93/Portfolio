@@ -11,6 +11,7 @@
         <app-experience id="projects" responsive></app-experience>
         <app-skills id="skills" responsive></app-skills>
         <app-contact id="contact" responsive></app-contact>
+        <button class="backToTop" [ngClass]="{'show-scrollTop': windowScrolled}" (click)="scrollToTop()" responsive><i class='bx bxs-to-top'></i></button>
     </main>
 
 
