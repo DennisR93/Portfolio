@@ -15,9 +15,9 @@ export class PersonalInfoComponent {
   ]
 
   aboutMe: string[] = [
-    "Hi, I'm a Full Stack Web Developer",
-    "Served in the army as a commander and Discipline NCO",
-    "Always eager to learn new technologies and develop my self",
-    "Currently looking for my next challenge as a Developer"
+    "As a Full Stack Web Developer, I thrive on solving complex problems and crafting elegant solutions.",
+    "With a passion for both front-end and back-end development, I am committed to delivering high-quality code that is both efficient and effective.",
+    "I have a strong understanding of programming languages such as HTML, CSS, JavaScript, TypeScript, and I am always eager to learn and implement new technologies.",
+    "Let's work together to create digital experiences that exceed expectations!"
   ]
 }
