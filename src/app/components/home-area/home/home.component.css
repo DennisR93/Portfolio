@@ -71,6 +71,64 @@
 }
 
 
+/* Tablet */
+
+:host.tablet {
+    padding: 3rem 1.5rem 8rem;
+    clip-path: polygon(0% 0%, 100% 0%, 100% 95%, 50% 100%, 0% 95%);
+}
+
+:host.tablet .container{
+    display: grid;
+    grid-template-columns: 1fr;
+    position: relative;
+}
+
+:host.tablet .title {
+    font-size: 4rem;
+    padding: 0 0 2rem;
+    text-align: center;
+    font-style: normal;
+    color: var(--hooker-green);
+    text-decoration: underline;
+    font-family: 'Bebas Neue', cursive;
+}
+
+:host.tablet .name {
+    grid-row: 3/4;
+    padding: 1.5rem;
+    color: var(--cadet-gray);
+    font-size: 1.5rem;
+    margin-top: 3rem;
+    outline: 1px solid var(--ash-gray);
+    font-family: 'Konkhmer Sleokchher', cursive;
+}
+
+:host.tablet .name span:nth-of-type(1) span {
+    font-size: 2.5rem;
+    color: var(--hooker-green);
+}
+
+:host.tablet .name span:nth-of-type(2) {
+    display: inline-block;
+    color: var(--hooker-green);
+    font-size: 2.5rem;
+    font-weight: bold;
+    padding: 10px 0;
+    letter-spacing: 8px;
+    text-shadow: 8px 5px 8px rgba(0, 0, 0, 0.2);
+}
+
+:host.tablet .profile {
+    width: 300px;
+    height: 300px;
+    grid-row: 2/3;
+    margin: 0 auto;
+    position: relative;
+    clip-path: inset(0 round 0 0 25%);
+}
+
+
 /* Desktop */
 
 :host.desktop {
@@ -87,7 +145,7 @@
     grid-column: 1/2;
     padding: 0;
     margin: auto;
-    font-size: 6rem;
+    font-size: 7rem;
     font-style: normal;
     text-decoration: none;
 }
@@ -107,6 +165,11 @@
     margin-bottom: 0;
     height: max-content;
     padding: 2rem;
+    font-size: 2rem;
+}
+
+:host.desktop .name span:nth-of-type(1) span{
+    font-size: 3.5rem;
 }
 
 :host.desktop .name span:nth-of-type(2){

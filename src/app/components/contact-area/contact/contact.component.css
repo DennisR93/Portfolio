@@ -48,7 +48,7 @@ i {
 
 :host.desktop .social-media, :host.desktop .contact-info{
     width: 400px;
-    margin: 3rem auto 0;
+    margin: 2rem auto 1rem;
 }
 
 :host.desktop .social-media{

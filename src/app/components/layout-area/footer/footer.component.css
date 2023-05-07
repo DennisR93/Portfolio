@@ -6,8 +6,23 @@ div {
     margin: auto;
 }
 
+p{
+    display: flex;
+    align-items: center;
+}
+
 .pc {
     display: none;
+}
+
+/* Tablet */
+
+:host.tablet .pc{
+    display: none;
+}
+
+:host.tablet .mobile {
+    display: flex;
 }
 
 /* Desktop */
@@ -18,4 +33,5 @@ div {
 
 :host.desktop .pc{
     display: flex;
+    align-items: center;
 }

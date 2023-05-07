@@ -13,6 +13,11 @@ section h2{
     color: var(--cadet-gray);
 }
 
+section h4{
+    -webkit-text-stroke-width: 1px;
+    -webkit-text-stroke-color: rgba(0, 0, 0, 0.1);
+}
+
 section .rating {
     width: 100%;
     height: max-content;
@@ -36,6 +41,12 @@ section .rating .bar div{
 
 .percent{
     color: var(--hooker-green);
+}
+
+/* Tablet */
+
+:host.tablet section {
+    padding-left: 15px;
 }
 
 

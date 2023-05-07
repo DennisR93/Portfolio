@@ -12,8 +12,19 @@ section h2 {
     color: var(--hooker-green);
 }
 
+section h3 {
+    -webkit-text-stroke-width: 1px;
+    -webkit-text-stroke-color: rgba(0, 0, 0, 0.1);
+}
+
 section h4 {
     color: var(--cadet-gray);
+}
+
+/* Tablet */
+
+:host.tablet section {
+    padding-left: 15px;
 }
 
 /* Desktop */

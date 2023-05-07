@@ -23,7 +23,7 @@ table tr td {
 }
 
 table tr td:nth-child(even) {
-    color: var(--cadet-gray);
+    color: var(--hooker-green);
 }
 
 section p {
@@ -35,13 +35,55 @@ section p:not(:first-child) {
     margin-top: 1rem;
 }
 
+/* Tablet */
+
+:host.tablet {
+    margin-top: 1.5rem;
+}
+
+:host.tablet .container{
+    gap: 2rem;
+    display: grid;
+}
+
+:host.tablet table {
+    font-size: 1.3rem;
+    width: 85%;
+    margin: 0 auto;
+}
+
+:host.tablet table tr td {
+    width: 60%;
+}
+
+:host.tablet section p {
+    font-size: 1.3rem;
+}
+
+:host.tablet section {
+    padding: 0 15px
+}
+
 /* Desktop */
+
 :host.desktop {
     margin-top: 3rem;
 }
 
 :host.desktop .container {
     grid-template-columns: 1fr 1fr;
+}
+
+:host.desktop table {
+    font-size: 1.5rem;
+}
+
+:host.desktop table tr td {
+    width: 60%;
+}
+
+:host.desktop section p {
+    font-size: 1.5rem;
 }
 
 :host.desktop h1 {
