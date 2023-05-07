@@ -25,6 +25,7 @@ export class ResponsiveDirective {
                             if (breakpoint === Breakpoints.WebLandscape)
                             { 
                                 this.elementRef.nativeElement.classList.add("desktop");
+                                this.elementRef.nativeElement.classList.remove("tablet");
                             }
                         }
                     }
