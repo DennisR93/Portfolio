@@ -5,3 +5,17 @@ div {
     justify-content: center;
     margin: auto;
 }
+
+.pc {
+    display: none;
+}
+
+/* Desktop */
+
+:host.desktop .mobile{
+    display: none;
+}
+
+:host.desktop .pc{
+    display: flex;
+}
