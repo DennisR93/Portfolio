@@ -6,8 +6,10 @@ import { Component } from '@angular/core';
   styleUrls: ['./header.component.css']
 })
 export class HeaderComponent {
+
   showToggle: boolean;
 
+  // Toggle Mobile navbar on/off
   onToggle() {
     this.showToggle = !this.showToggle;
 }

@@ -8,6 +8,7 @@ import { Skill } from 'src/app/models/skills-model';
 })
 export class SkillsComponent {
 
+  // Skills Model
   skills: Skill[] = [
     {
       name: "HTML5, CSS3",

@@ -6,6 +6,7 @@ import { Component, OnInit } from '@angular/core';
   styleUrls: ['./personal-info.component.css']
 })
 export class PersonalInfoComponent {
+  
   personalData: string[][] = [
     ["Name:", "Dennis Rabinovitch"],
     ["DOB:", "14/09/1993"],

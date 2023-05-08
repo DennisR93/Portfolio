@@ -8,6 +8,7 @@ import { Education } from 'src/app/models/education-model';
 })
 export class EducationComponent {
 
+  // Education Model
   educationList: Education[] = [
     {
       institute: "Etgar College",

@@ -1,3 +1,4 @@
+// Education Model
 export interface Education {
     institute: string;
     course: string;

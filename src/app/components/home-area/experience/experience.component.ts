@@ -9,6 +9,7 @@ import { Projects } from 'src/app/models/projects-model';
 })
 export class ExperienceComponent {
 
+  // Projects Model
   projectList: Projects[] = [
     {
       name: "To-Do List",
@@ -45,6 +46,7 @@ export class ExperienceComponent {
 
   ]
 
+  // Experience Model
   experienceList: Experience[] = [
     {
       role: "Commander, Disciplinary Senior NCO - Air Force - Anti Air Batteries",

@@ -49,7 +49,6 @@ section .rating .bar div{
     padding-left: 15px;
 }
 
-
 /* Desktop */
 
 :host.desktop .container{

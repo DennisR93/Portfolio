@@ -1,4 +1,4 @@
-
+// Projects Model
 export interface Projects {
     name: string;
     technologies: string;
